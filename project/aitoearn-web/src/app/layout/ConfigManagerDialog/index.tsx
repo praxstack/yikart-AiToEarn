@@ -1,6 +1,6 @@
 /**
  * ConfigManagerDialog - 全局配置管理弹框
- * 将后端配置对象转换为可编辑表单，并支持保存后重启与健康检查。
+ * 将后端配置对象转换为可编辑表单，并支持保存后重启与恢复检查。
  */
 'use client'
 
@@ -44,7 +44,7 @@ interface ConfigManagerError {
 }
 
 const healthCheckIntervalMs = 1600
-const healthCheckMaxAttempts = 30
+const healthCheckMaxAttempts = 75
 const serverRelayPath: ConfigPath = ['relay']
 const aiRelayPath: ConfigPath = ['ai', 'relay']
 const serverRelayDefaultConfig: Record<string, unknown> = {

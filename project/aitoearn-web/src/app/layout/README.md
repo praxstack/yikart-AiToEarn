@@ -62,7 +62,7 @@ import { useConfigManagerDialogStore } from '@/store/configManagerDialog'
 
 - UI 实现在 `src/app/layout/ConfigManagerDialog/`。
 - 弹框内将后端配置对象转换为可编辑表单，不直接暴露 JSON 编辑。
-- 保存后可重启服务，并通过 `/health` 健康检查确认服务恢复。
+- 保存后可重启服务，并通过账号列表接口确认服务恢复。
 
 ## routerData - 导航数据配置
 

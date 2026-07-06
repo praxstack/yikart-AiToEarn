@@ -19,8 +19,8 @@ export function createChannelAccountApi(data: CreateChannelAccountParams) {
 /**
  * 账号列表
  */
-export function getAccountListApi() {
-  return http.get<AccountListData>('v2/channels/accounts')
+export function getAccountListApi(silent = false) {
+  return http.get<AccountListData>('v2/channels/accounts', undefined, silent)
 }
 
 /**

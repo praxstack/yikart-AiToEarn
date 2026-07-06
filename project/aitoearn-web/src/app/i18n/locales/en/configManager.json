@@ -242,7 +242,7 @@
     "restartSuccess": "Service is back online. Configuration is now effective.",
     "dirtyHint": "There are unsaved changes.",
     "cleanHint": "Configuration is up to date.",
-    "healthChecking": "Checking service health {{current}}/{{total}}...",
+    "healthChecking": "Checking service recovery {{current}}/{{total}}...",
     "jsonHint": "JSON mode saves as a JSON object. Invalid JSON will not be submitted.",
     "copyValueSuccess": "Configuration value copied",
     "copyFailed": "Copy failed, please copy manually"
@@ -252,8 +252,8 @@
     "validateFailed": "Configuration validation failed",
     "saveFailed": "Failed to save configuration",
     "restartFailed": "Failed to restart service",
-    "healthTimeout": "Service health check timed out",
-    "healthTimeoutDescription": "The restart request was sent, but /health did not recover in time. Please check the service manually.",
+    "healthTimeout": "Service recovery check timed out",
+    "healthTimeoutDescription": "The restart request was sent, but the account list API did not recover in time. Please check the service manually.",
     "jsonInvalid": "Invalid JSON configuration",
     "jsonRootObject": "The root value must be a JSON object."
   },

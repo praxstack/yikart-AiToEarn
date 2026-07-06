@@ -242,7 +242,7 @@
     "restartSuccess": "服务已恢复，配置已生效。",
     "dirtyHint": "当前有未保存修改。",
     "cleanHint": "配置已是最新状态。",
-    "healthChecking": "正在检查服务健康状态 {{current}}/{{total}}...",
+    "healthChecking": "正在检查服务恢复状态 {{current}}/{{total}}...",
     "jsonHint": "JSON 配置会按对象提交，格式错误时不会保存。",
     "copyValueSuccess": "配置值已复制",
     "copyFailed": "复制失败，请手动复制"
@@ -252,8 +252,8 @@
     "validateFailed": "配置校验失败",
     "saveFailed": "配置保存失败",
     "restartFailed": "服务重启失败",
-    "healthTimeout": "服务健康检查超时",
-    "healthTimeoutDescription": "重启请求已发送，但 /health 未在预期时间内恢复，请手动检查服务状态。",
+    "healthTimeout": "服务恢复检查超时",
+    "healthTimeoutDescription": "重启请求已发送，但账号列表接口未在预期时间内恢复，请手动检查服务状态。",
     "jsonInvalid": "JSON 配置格式错误",
     "jsonRootObject": "根节点必须是 JSON 对象。"
   },

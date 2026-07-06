@@ -22,6 +22,6 @@
 | `analytics/`     | 发布流程中使用的统计辅助接口。                     | `analytics/README.md`     |
 | `auth/`          | 登录、验证码与当前用户信息。                       | `auth/README.md`          |
 | `channels/`      | 渠道平台元数据、渠道授权、发布流程与发布记录。     | `channels/README.md`      |
-| `config-editor/` | 配置管理、配置校验、保存、服务重启与健康检查。     | `config-editor/README.md` |
+| `config-editor/` | 配置管理、配置校验、保存、服务重启与恢复检查。     | `config-editor/README.md` |
 | `materials/`     | OSS 上传、媒体库、草稿素材、素材组与公开素材查询。 | `materials/README.md`     |
 | `platforms/`     | 平台专项能力，例如发布、互动、作品校验和平台参数。 | `platforms/README.md`     |
